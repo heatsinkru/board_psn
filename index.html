@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -27,43 +27,62 @@
         <img src="images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         Board PSN
       </a>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop" id="notifs">🔔 <span class="badge badge-light" id="badge">New</span><span class="sr-only">Nouvelle(s) mise(s) à jour</span></button>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Général</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projets.html">Pôle projets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="info.html">Pôle info</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="comm.html">Pôle communication</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="qualite.html">Pôle qualité</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="treso.html">Pôle trésorerie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="partenaires.html">Nos partenaires</a>
-          </li>
-        </ul>
-        <ul class="nav justify-content-end">
-          <li class="nav-item"><a class="nav-link disabled">Copyright Ⓒ 2020 Polytech Services Nancy</a></li>
-        </ul>
+          <li class="nav-item active" style="padding-left: 10px;">
+            <a class="nav-link" href="index.html">🦄 Général 👈</a>
+          </li >
+          <li class="nav-item" style="padding-left: 10px;">
+            <a class="nav-link" href="projets.html">🗂️ Pôle projets</a>
+          </li >
+          <li class="nav-item" style="padding-left: 10px;">
+            <a class="nav-link" href="info.html">🖥️ Pôle info</a>
+          </li >
+          <li class="nav-item" style="padding-left: 10px;">
+            <a class="nav-link" href="comm.html">🎨 Pôle comm'</a>
+          </li >
+          <li class="nav-item" style="padding-left: 10px;">
+            <a class="nav-link" href="qualite.html">📊 Pôle quali'</a>
+          </li >
+          <li class="nav-item" style="padding-left: 10px;">
+            <a class="nav-link" href="treso.html">💰 Pôle trésorerie</a>
+          </li >
+          <li class="nav-item" style="padding-left: 10px;">
+            <a class="nav-link" href="partenaires.html">👥 Nos partenaires</a>
+          </li >
+
+     </div>
+
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Nouvelle mise à jour ! 📢</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      <div class="modal-body">
+        <p>Nouveautés de cette version :<br><br>
+            - ajout de divers émojis (c'est quand même plus joyeux 🥳)<br>
+            - ajout du sytème d'alertes pour les nouvelles mises à jour (plus besoin de trop vous harceler sur slack 🔕)</p>
+        <hr>
+        <div style="font-size: 13px;"><i>Version 2.2.0 du 26/06/2020. Tous droits réservés. <br>Copyright &copy; 2020 Polytech Services Nancy.</i></div></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Wow ! Cette nouvelle me remplit de joie 💌</button>
+      </div>
+    </div>
+  </div>
+</div>
     </nav>
 
     <div class="container">
       <div class="row">
-
         <div class="col-xs-1">
          <div class="card text-center">
            <a href="https://polytech-services-nancy.fr/" target=_blank>
@@ -273,7 +292,6 @@
     <a href="http://gmail.polytech-services-nancy.fr" target=_blank>
       <img src="images/gmail.jpg" onmouseover="javascript:this.src='images/gmail_2.jpg';" onmouseout="javascript:this.src='images/gmail.jpg';" />
     </a>
-    <img src="images/new.svg" width="25%" style="position: absolute; margin-left: 75%;">
 
     <div class="card-body">
       <button type="button"
