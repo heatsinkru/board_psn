@@ -1,0 +1,13 @@
+https://polytech-services-nancy.fr/;images/psn.png;Site PSN;FALSE;*
+https://process.polytech-services-nancy.fr/process;images/Process.png;PSN Process;FALSE;*
+https://trello.com/b/Xh9Pja0q/relecture-documents;images/trello.png;Trello Relecture Docs;TRUE;Outil pour le processus relecture 📖
+https://drive.google.com/drive/u/0/folders/1IuOn1JBhXFOuh2ayN4hFnNHcX5EW8QQD;images/google-drive.png;Drive PSN;TRUE;Ce dossier comporte tous les documents du mandat actuel  👌
+https://polytechservicesnancy.slack.com/messages/general/;images/slack.png;Slack PSN;TRUE;Slack est un outil de communication interne à la Junior 💬
+https://docs.google.com/spreadsheets/d/15dlMubiVSkyE41RyXk5YxhhV_WwWC5tBbiympt5xO1U/edit#gid=45281368;images/sheets.png;Suivi Projets;FALSE;*
+https://formations.junior-entreprises.com/;images/brain.png;Site MDD;TRUE;Formations proposées par la CNJE 🧠
+https://kiwi.junior-entreprises.com/;images/Kiwi.png;Kiwi;TRUE;La bible du Junior-Entrepreneur 😉
+https://legal.junior-entreprises.com/?login;images/legal.png;Kiwi légal;FALSE;*
+https://junior-entreprises.com/;images/je.png;Site CNJE;FALSE;*
+http://www.techniques-ingenieur.fr.bases-doc.univ-lorraine.fr/base-documentaire/technologies-de-l-information-th9/usages-et-management-strategique-des-documents-numeriques-42482210/;images/Ti.png;Formations veille;TRUE;Formations proposées par l'UL pour garder un oeil sur l'actu numérique 🙂
+https://meet.google.com/?hs=197&pli=1&authuser=0;images/Meet.png;Google MEET;TRUE;Pour la majorité des réunions (CA, bureau, ...) 💼
+http://gmail.polytech-services-nancy.fr;images/Gmail.png;Gmail PSN;TRUE;Pour gérer tous vos mails de la JE  👌

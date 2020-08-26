@@ -1,0 +1,5 @@
+https://trello.com/b/Xh9Pja0q/relecture-documents;images/trello_bleu.png;Trello Relecture Docs;FALSE;*
+https://trello.com/b/3ZQE8EwU/relecture-treso;images/trello_vert.png;Trello Relecture Tréso;FALSE;*
+https://trello.com/b/0A3znDXz/relecture-livrables;images/trello_rouge.png;Trello Relecture Livrables;FALSE;*
+https://trello.com/b/CwU6HFhd/to-do-list-qualit%C3%A9;images/trello_jaune.png;Trello TO DO LIST;FALSE;*
+https://legal.junior-entreprises.com/documents-types/;images/documents.png;Docs Types CNJE;FALSE;*
