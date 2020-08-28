@@ -25,7 +25,7 @@ function getNavBar() {
   $navBar = <<<_END
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="https://board.polytech-services-nancy.fr/">
         <img src="images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         Board PSN
       </a>
@@ -84,7 +84,7 @@ function getNavBar() {
                   - changement de conception interne de l'application : appel du code depuis des fonctions PHP
                 </p>
                 <hr>
-                <div style="font-size: 13px;"><i>Version 0.1.5 du 24/08/2020. Tous droits réservés. <br>Copyright &copy; 2020 Polytech Services Nancy.</i></div></p>
+                <div style="font-size: 13px;"><i>Version 5.1 du 28/08/2020. Tous droits réservés. <br>Copyright &copy; 2020 Polytech Services Nancy.</i></div></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">That's so CRAZZZZZYYYYY ❗🤯</button>
