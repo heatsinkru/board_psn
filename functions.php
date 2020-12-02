@@ -56,6 +56,9 @@ function getNavBar() {
             <a class="nav-link link_quali">📊 Pôle quali'</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link link_orga">ℹ️ Pôle orga'</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link link_treso">💰 Pôle tréso'</a>
           </li>
           <li class="nav-item">
@@ -77,14 +80,11 @@ function getNavBar() {
               </div>
               <div class="modal-body">
                 <p>Nouveautés de cette version :<br><br>
-                  - organisation du site en "one page" pour réduire les temps de chargement<br>
-                  - redesign des logos<br>
-                  - changement de la police d'écriture<br>
-                  - ajout d'un filtre pour les images au lieu de 2 images distinctes<br>
-                  - changement de conception interne de l'application : appel du code depuis des fonctions PHP
+                  - ajout de liens dans l'onglet qualité<br>
+                  - ajout de l'onglet orga<br>
                 </p>
                 <hr>
-                <div style="font-size: 13px;"><i>Version 5.1 du 28/08/2020. Tous droits réservés. <br>Copyright &copy; 2020 Polytech Services Nancy.</i></div></p>
+                <div style="font-size: 13px;"><i>Version 5.2 du 02/12/2020. Tous droits réservés. <br>Copyright &copy; 2020 Polytech Services Nancy.</i></div></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">That's so CRAZZZZZYYYYY ❗🤯</button>

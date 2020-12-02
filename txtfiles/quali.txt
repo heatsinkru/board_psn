@@ -2,4 +2,11 @@ https://trello.com/b/Xh9Pja0q/relecture-documents;images/trello_bleu.png;Trello 
 https://trello.com/b/3ZQE8EwU/relecture-treso;images/trello_vert.png;Trello Relecture Tréso;FALSE;*
 https://trello.com/b/0A3znDXz/relecture-livrables;images/trello_rouge.png;Trello Relecture Livrables;FALSE;*
 https://trello.com/b/CwU6HFhd/to-do-list-qualit%C3%A9;images/trello_jaune.png;Trello TO DO LIST;FALSE;*
-https://legal.junior-entreprises.com/documents-types/;images/documents.png;Docs Types CNJE;FALSE;*
+https://legal.junior-entreprises.com/documents-types/;images/documents.png;Documents Types CNJE;FALSE;*
+https://drive.google.com/drive/u/0/folders/13L5rjR3thzIA9Tht_qUrBpw2OArfdvVh;images/folder.png;Documents Types (Drive);FALSE;*
+https://docs.google.com/spreadsheets/d/14Ae4buRxzcbCFq0hV1ZcwsH6_QvGOixGdd8IvdDchJo/edit#gid=1408177877;images/general.png;Indicateurs Relecture;FALSE;*
+https://docs.google.com/spreadsheets/d/1kAXOhPoJAe2JkAVJxLrMT4c7TcHOTiZUmxlIXIXjW4M/edit#gid=421306908;images/treso.png;Indicateurs Généraux;FALSE;*
+https://docs.google.com/spreadsheets/d/1aLKlMNc0BGXBNrfuqopfoYuoAgJamgYtIzw_m7mjfDM/edit#gid=1698390921;images/cadre_legal.png;Récapitulatif Questions Cadre Légal;FALSE;*
+https://docs.google.com/spreadsheets/d/1zWStFqOFOlQpZgIsIVPkw14r_76v7dx4zTBidp5vq7I/edit?usp=sharing;images/audit_treso.png;Grille Audit Tréso;FALSE;*
+https://docs.google.com/spreadsheets/d/1k1Cn0xAcOhivw4b-jhMPW1rSNljIzVLSVKZqaUqTlLs/edit?usp=sharing;images/audit_orga.png;Grille Audit Orga;FALSE;*
+https://docs.google.com/spreadsheets/d/1AcYeJqWl75ikSA-og3BeANIjWucthIDLFH8swLXxFck/edit?usp=sharing;images/audit_etudes.png;Grille Audit Études;FALSE;*

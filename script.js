@@ -25,6 +25,9 @@ function resetAll() {
   $(".link_quali").attr({
     class: "nav-link link_quali"
   });
+  $(".link_orga").attr({
+    class: "nav-link link_orga"
+  });
   $(".link_treso").attr({
     class: "nav-link link_treso"
   });
@@ -36,6 +39,7 @@ function resetAll() {
   $(".link_info").text("🖥️ Pôle info'");
   $(".link_comm").text("🎨 Pôle comm'");
   $(".link_quali").text("📊 Pôle quali'");
+  $(".link_orga").text("ℹ️ Pôle orga'");
   $(".link_treso").text("💰 Pôle tréso'");
   $(".link_partenaires").text("👥 Nos partenaires");
 }
@@ -43,16 +47,6 @@ function resetAll() {
 $(document).ready(function() {
 
   firstLoad();
-
-  $("#admin_space").on({
-
-    click: function() {
-
-      document.location.href="adminspace.php";
-
-    }
-
-  });
 
   $(".link-img").on({
 
@@ -147,6 +141,22 @@ $(document).ready(function() {
       });
 
       $(this).text("📊 Pôle quali' 👈")
+    }
+
+  });
+
+  $(".link_orga").on({
+
+    click: function(){
+
+      resetAll();
+      $(".orga_row").show();
+
+      $(this).attr({
+        class: "nav-link link_orga active"
+      });
+
+      $(this).text("ℹ️ Pôle orga' 👈")
     }
 
   });

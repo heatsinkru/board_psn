@@ -54,6 +54,12 @@ require_once "functions.php";
       ?>
       </div>
 
+      <div class="row orga_row">
+      <?php
+        loadFile("txtfiles/orga.txt");
+      ?>
+      </div>
+
       <div class="row treso_row">
       <?php
         loadFile("txtfiles/treso.txt");
