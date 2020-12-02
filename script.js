@@ -3,6 +3,7 @@ function firstLoad() {
   $(".info_row").hide();
   $(".comm_row").hide();
   $(".quali_row").hide();
+  $(".orga_row").hide();
   $(".treso_row").hide();
   $(".partenaires_row").hide();
   $(".description-area").hide();
