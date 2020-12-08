@@ -5,3 +5,4 @@ https://meet.google.com/tools/quality/admin;images/idcard.png;Admin Google MEET;
 https://www.cnil.fr/fr/rgpd-par-ou-commencer;images/lock.png;RGPD CNIL;TRUE;Articles concernant la RGPD sur le site de la CNIL
 https://git.polytech-services-nancy.fr/;images/gitea.png;Gitea PSN;FALSE;*
 https://search.google.com/u/1/search-console?hl=fr&utm_source=wmx&utm_medium=deprecation-pane&utm_content=dashboard&resource_id=sc-domain:polytech-services-nancy.fr;images/stats.png;Google Search Console;TRUE;Pour optimiser le référencement du site de PSN
+https://groups.google.com/a/polytech-services-nancy.fr/g/securite/pending-messages?pli=1;images/validation.png;Google Groups - Spam;TRUE;Espace de modération des mails bloqués car considérés comme des SPAM
