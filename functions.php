@@ -30,6 +30,11 @@ function getNavBar() {
         Board PSN
       </a>
 
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="darkTrigger" checked>
+        <label class="custom-control-label" for="darkTrigger">&#8239;&#8239;</label>
+      </div>
+
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop" id="notifs">🔔 <span class="sr-only">Nouvelle(s) mise(s) à jour</span></button>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,11 +85,11 @@ function getNavBar() {
               </div>
               <div class="modal-body">
                 <p>Nouveautés de cette version :<br><br>
-                  - ajout de liens dans l'onglet qualité<br>
-                  - ajout de l'onglet orga<br>
+                  - ajout d'un mode sombre (dark theme)<br>
+                  - ajout d'un lien vers GAgenda<br>
                 </p>
                 <hr>
-                <div style="font-size: 13px;"><i>Version 5.2 du 02/12/2020. Tous droits réservés. <br>Copyright &copy; 2020 Polytech Services Nancy.</i></div></p>
+                <div style="font-size: 13px;"><i>Version 6.0 du 29/01/2021. Tous droits réservés. <br>Copyright &copy; 2021 Polytech Services Nancy.</i></div></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">That's so CRAZZZZZYYYYY ❗🤯</button>

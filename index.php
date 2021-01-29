@@ -1,8 +1,8 @@
 <?php
 /**
   * @author Samuel-Charles DITTE-DESTRÉE <samueldittedestree@gmail.com>
-  * @version 5.1
-  * @copyright (c) Polytech Services Nancy, 2020
+  * @version 6.0
+  * @copyright (c) Polytech Services Nancy, 2021
   * @link https://board.polytech-services-nancy.fr
   */
 require_once "functions.php";

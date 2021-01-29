@@ -11,3 +11,4 @@ https://junior-entreprises.com/;images/je.png;Site CNJE;FALSE;*
 http://www.techniques-ingenieur.fr.bases-doc.univ-lorraine.fr/base-documentaire/technologies-de-l-information-th9/usages-et-management-strategique-des-documents-numeriques-42482210/;images/Ti.png;Formations veille;TRUE;Formations proposées par l'UL pour garder un oeil sur l'actu numérique 🙂
 https://meet.google.com/?hs=197&pli=1&authuser=0;images/Meet.png;Google MEET;TRUE;Pour la majorité des réunions (CA, bureau, ...) 💼
 http://gmail.polytech-services-nancy.fr;images/Gmail.png;Gmail PSN;TRUE;Pour gérer tous vos mails de la JE  👌
+http://agenda.polytech-services-nancy.fr;images/calendar.png;Agenda PSN;FALSE;*

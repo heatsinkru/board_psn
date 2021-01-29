@@ -59,3 +59,30 @@
     margin: 20px;
   }
 }
+
+/** Dark Theme */
+
+.dark {
+  background-color: #181a1b;
+}
+
+.dark .card {
+  background-color: #181a1b !important;
+  border: 1px solid #333 !important;
+}
+
+.dark .modal, .dark .close {
+  color: #fff;
+}
+
+.dark .modal-content { 
+  background-color: #181a1b;
+}
+
+.dark .modal-body, .dark .modal-footer, .dark .modal-header {
+  border-top: transparent !important;
+  border-bottom: transparent !important; 
+}
+
+.dark .modal-footer{ border-top: 1px solid #333 !important; }
+.dark .modal-header{ border-bottom: 1px solid #333 !important; }

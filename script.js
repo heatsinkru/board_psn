@@ -198,3 +198,31 @@ $(document).ready(function() {
 
 });
 
+$("#darkTrigger").click(function(){
+  if($("input[type=checkbox]").is(':checked')){
+      $("body").addClass("dark");
+      $(".btn-light").addClass("btn-dark");
+      $(".btn-dark").removeClass("btn-light");
+  } else {
+      if ($("body").hasClass("dark")){
+      $("body").removeClass("dark");
+      $(".btn-dark").addClass("btn-light");
+      $(".btn-light").removeClass("btn-dark");
+    }
+  }
+});
+
+//$("input[type=checkbox]").prop('checked',false);
+$(document).ready(function () {
+  if($("input[type=checkbox]").is(':checked')){
+      $("body").addClass("dark");
+      $(".btn-light").addClass("btn-dark");
+      $(".btn-dark").removeClass("btn-light");
+  } else {
+      if ($("body").hasClass("dark")){
+      $("body").removeClass("dark");
+      $(".btn-dark").addClass("btn-light");
+      $(".btn-light").removeClass("btn-dark");
+    }
+  }
+});
