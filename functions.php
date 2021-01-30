@@ -6,7 +6,7 @@ function getHeader() {
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <title>Board PSN</title>
+      <title>PSN Board</title>
       <link rel="icon" type="image/png" href="images/logo.png">
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -27,7 +27,7 @@ function getNavBar() {
 
       <a class="navbar-brand" href="https://board.polytech-services-nancy.fr/">
         <img src="images/psn.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-        Board PSN
+        PSN Board
       </a>
 
       <div class="custom-control custom-switch">
