@@ -7,7 +7,7 @@ function getHeader() {
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <title>Board PSN</title>
-      <link rel="icon" type="image/png" href="images/icon.png">
+      <link rel="icon" type="image/png" href="images/logo.png">
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="style.css">
@@ -26,7 +26,7 @@ function getNavBar() {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
       <a class="navbar-brand" href="https://board.polytech-services-nancy.fr/">
-        <img src="images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        <img src="images/psn.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         Board PSN
       </a>
 
