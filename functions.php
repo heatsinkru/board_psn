@@ -164,5 +164,3 @@ function loadFile($fichier) {
 
   fclose($file);
 }
-
-?>
