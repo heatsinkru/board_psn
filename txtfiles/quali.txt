@@ -6,7 +6,7 @@ https://legal.junior-entreprises.com/documents-types/;images/documents.png;Docum
 https://drive.google.com/drive/u/0/folders/13L5rjR3thzIA9Tht_qUrBpw2OArfdvVh;images/folder.png;Documents Types (Drive);FALSE;*
 https://docs.google.com/spreadsheets/d/14Ae4buRxzcbCFq0hV1ZcwsH6_QvGOixGdd8IvdDchJo/edit#gid=1408177877;images/general.png;Indicateurs Relecture;FALSE;*
 https://docs.google.com/spreadsheets/d/1kAXOhPoJAe2JkAVJxLrMT4c7TcHOTiZUmxlIXIXjW4M/edit#gid=421306908;images/treso.png;Indicateurs Généraux;FALSE;*
-https://docs.google.com/spreadsheets/d/1aLKlMNc0BGXBNrfuqopfoYuoAgJamgYtIzw_m7mjfDM/edit#gid=1698390921;images/cadre_legal.png;Récap Questions Cadre Légal;FALSE;*
+https://docs.google.com/spreadsheets/d/1aLKlMNc0BGXBNrfuqopfoYuoAgJamgYtIzw_m7mjfDM/edit#gid=1698390921;images/cadre_legal.png;Récapitulatif Questions CL;FALSE;*
 https://docs.google.com/spreadsheets/d/1zWStFqOFOlQpZgIsIVPkw14r_76v7dx4zTBidp5vq7I/edit?usp=sharing;images/audit_treso.png;Grille Audit Tréso;FALSE;*
 https://docs.google.com/spreadsheets/d/1k1Cn0xAcOhivw4b-jhMPW1rSNljIzVLSVKZqaUqTlLs/edit?usp=sharing;images/audit_orga.png;Grille Audit Orga;FALSE;*
 https://docs.google.com/spreadsheets/d/1AcYeJqWl75ikSA-og3BeANIjWucthIDLFH8swLXxFck/edit?usp=sharing;images/audit_etudes.png;Grille Audit Études;FALSE;*
