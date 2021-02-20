@@ -1,5 +1,5 @@
 https://polytech-services-nancy.fr/;images/psn.png;Site PSN;FALSE;*
-https://process.polytech-services-nancy.fr/process;images/Process.png;PSN Process;FALSE;*
+https://cawemo.com/;images/Process.png;PSN Process;FALSE;*
 https://trello.com/b/Xh9Pja0q/relecture-documents;images/trello.png;Trello Relecture Docs;TRUE;Outil pour le processus relecture 📖
 https://drive.google.com/drive/u/0/folders/1IuOn1JBhXFOuh2ayN4hFnNHcX5EW8QQD;images/google-drive.png;Drive PSN;TRUE;Ce dossier comporte tous les documents du mandat actuel  👌
 https://polytechservicesnancy.slack.com/messages/general/;images/slack.png;Slack PSN;TRUE;Slack est un outil de communication interne à la Junior 💬
