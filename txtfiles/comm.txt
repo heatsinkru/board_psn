@@ -1,8 +1,0 @@
-https://www.canva.com/;images/canva.png;Canva;TRUE;Pour faires des affiches, flyers, logos, ... 🤩
-http://free-icon-rainbow.com/;images/rainbow.png;Icons Rainbow;TRUE;Stock d'icônes de qualité, gratuits, libres de droits mais monocouleurs (personnne n'est parfait 😭)
-https://www.flaticon.com/;images/brioche.png;Flaticon;TRUE;Stock d'icônes PNG et SVG de qualité et  gratuits. Particulièrement utile pour retrouver le logo de marques.
-https://fontawesome.com/v4.7.0/;images/ciseaux.png;Font Awesome;TRUE;Bien plus qu'une simple bibliothèque d'icônes 🌈
-https://tinyjpg.com/;images/panda.png;TinyJPG;TRUE;Logiciel de compression d'images en ligne 🌈
-https://fr.linkedin.com/company/esstin-services;images/linkedin.png;Linkedin PSN;TRUE;N'oubliez pas de mettre des petits likes 😍
-https://www.facebook.com/PolytechServicesNancy/;images/facebook.png;Facebook PSN;TRUE;N'oubliez pas de mettre des petits likes 😍
-https://twitter.com/PolytechSN;images/twitter.png;Twitter PSN;TRUE;N'oubliez pas de mettre des petits likes 😍

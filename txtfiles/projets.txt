@@ -1,3 +1,0 @@
-https://kiwi.junior-entreprises.com/#/appels-d-offres;images/offer.png;AOK [CNJE];TRUE;Un lieu dangereux dans lequel les chargés d'affaires les plus compétiteurs pourront trouver des projets et faire rayonner PSN 😎
-http://git.polytech-services-nancy.fr/;images/gitea.png;Gitea PSN;FALSE;*
-https://docs.google.com/spreadsheets/d/1uHQJGvD1gZkVd8qnRkc2t7OIURG6sH0Xklz4YzWlm3E/edit#gid=1870766492;images/suiviproj.png;Suivi Projets;FALSE;*

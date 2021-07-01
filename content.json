@@ -1,0 +1,380 @@
+{
+  "tabs": [
+    {
+      "name": "🦄 Général 👈",
+      "links": [
+        {
+          "name": "Site PSN",
+          "url": "https:\/\/polytech-services-nancy.fr\/",
+          "icon": "images\/psn.png",
+          "description": null
+        },
+        {
+          "name": "PSN Process",
+          "url": "https:\/\/cawemo.com\/",
+          "icon": "images\/Process.png",
+          "description": null
+        },
+        {
+          "name": "Trello Relecture Docs",
+          "url": "https:\/\/trello.com\/b\/Xh9Pja0q\/relecture-documents",
+          "icon": "images\/trello.png",
+          "description": "Outil pour le processus relecture 📖"
+        },
+        {
+          "name": "Drive PSN",
+          "url": "https:\/\/drive.google.com\/drive\/u\/0\/folders\/1IuOn1JBhXFOuh2ayN4hFnNHcX5EW8QQD",
+          "icon": "images\/google-drive.png",
+          "description": "Ce dossier comporte tous les documents du mandat actuel  👌"
+        },
+        {
+          "name": "Slack PSN",
+          "url": "https:\/\/polytechservicesnancy.slack.com\/messages\/general\/",
+          "icon": "images\/slack.png",
+          "description": "Slack est un outil de communication interne à la Junior 💬"
+        },
+        {
+          "name": "Suivi Projets",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1uHQJGvD1gZkVd8qnRkc2t7OIURG6sH0Xklz4YzWlm3E\/edit#gid=1870766492",
+          "icon": "images\/sheets.png",
+          "description": null
+        },
+        {
+          "name": "Site MDD",
+          "url": "https:\/\/formation.junior-entreprises.com\/",
+          "icon": "images\/brain.png",
+          "description": "Formations proposées par la CNJE 🧠"
+        },
+        {
+          "name": "Kiwi",
+          "url": "https:\/\/kiwi.junior-entreprises.com\/",
+          "icon": "images\/Kiwi.png",
+          "description": "La bible du Junior-Entrepreneur 😉"
+        },
+        {
+          "name": "Kiwi légal",
+          "url": "https:\/\/legal.junior-entreprises.com\/?login",
+          "icon": "images\/legal.png",
+          "description": null
+        },
+        {
+          "name": "Site CNJE",
+          "url": "https:\/\/junior-entreprises.com\/",
+          "icon": "images\/je.png",
+          "description": null
+        },
+        {
+          "name": "Formations veille",
+          "url": "http:\/\/www.techniques-ingenieur.fr.bases-doc.univ-lorraine.fr\/base-documentaire\/technologies-de-l-information-th9\/usages-et-management-strategique-des-documents-numeriques-42482210\/",
+          "icon": "images\/Ti.png",
+          "description": "Formations proposées par l'UL pour garder un oeil sur l'actu numérique 🙂"
+        },
+        {
+          "name": "Google MEET",
+          "url": "https:\/\/meet.google.com\/?hs=197&pli=1&authuser=0",
+          "icon": "images\/Meet.png",
+          "description": "Pour la majorité des réunions (CA, bureau, ...) 💼"
+        },
+        {
+          "name": "Gmail PSN",
+          "url": "http:\/\/gmail.polytech-services-nancy.fr",
+          "icon": "images\/Gmail.png",
+          "description": "Pour gérer tous vos mails de la JE  👌"
+        },
+        {
+          "name": "Agenda PSN",
+          "url": "http:\/\/agenda.polytech-services-nancy.fr",
+          "icon": "images\/calendar.png",
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "🗂️ Pôle proj'",
+      "links": [
+        {
+          "name": "AOK [CNJE]",
+          "url": "https:\/\/kiwi.junior-entreprises.com\/#\/appels-d-offres",
+          "icon": "images\/offer.png",
+          "description": "Un lieu dangereux dans lequel les chargés d'affaires les plus compétiteurs pourront trouver des projets et faire rayonner PSN 😎"
+        },
+        {
+          "name": "Gitea PSN",
+          "url": "http:\/\/git.polytech-services-nancy.fr\/",
+          "icon": "images\/gitea.png",
+          "description": null
+        },
+        {
+          "name": "Suivi Projets",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1uHQJGvD1gZkVd8qnRkc2t7OIURG6sH0Xklz4YzWlm3E\/edit#gid=1870766492",
+          "icon": "images\/suiviproj.png",
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "🖥️ Pôle info'",
+      "links": [
+        {
+          "name": "Google Admin",
+          "url": "https:\/\/admin.google.com\/?hl=fr",
+          "icon": "images\/card.png",
+          "description": "Console d'administration GSuite 🔐"
+        },
+        {
+          "name": "Admin OVH",
+          "url": "https:\/\/www.ovh.com\/auth\/?action=disconnect&onsuccess=https%3A%2F%2Fwww.ovh.com%2Fmanager%2F%23%2F",
+          "icon": "images\/key.png",
+          "description": "Espace d'administration OVH 🔐"
+        },
+        {
+          "name": "Admin Site PSN",
+          "url": "https:\/\/polytech-services-nancy.fr\/wp-admin\/",
+          "icon": "images\/keycard.png",
+          "description": "Espace d'administration WordPress 🔐"
+        },
+        {
+          "name": "Admin Google MEET",
+          "url": "https:\/\/meet.google.com\/tools\/quality\/admin",
+          "icon": "images\/idcard.png",
+          "description": "Console d'administration Google MEET (en cas de problèmes de qualité de réunion) 🔐"
+        },
+        {
+          "name": "RGPD CNIL",
+          "url": "https:\/\/www.cnil.fr\/fr\/rgpd-par-ou-commencer",
+          "icon": "images\/lock.png",
+          "description": "Articles concernant la RGPD sur le site de la CNIL"
+        },
+        {
+          "name": "Gitea PSN",
+          "url": "https:\/\/git.polytech-services-nancy.fr\/",
+          "icon": "images\/gitea.png",
+          "description": null
+        },
+        {
+          "name": "Google Search Console",
+          "url": "https:\/\/search.google.com\/u\/1\/search-console?hl=fr&utm_source=wmx&utm_medium=deprecation-pane&utm_content=dashboard&resource_id=sc-domain:polytech-services-nancy.fr",
+          "icon": "images\/stats.png",
+          "description": "Pour optimiser le référencement du site de PSN"
+        },
+        {
+          "name": "Google Groups - Spam",
+          "url": "https:\/\/groups.google.com\/a\/polytech-services-nancy.fr\/g\/securite\/pending-messages?pli=1",
+          "icon": "images\/validation.png",
+          "description": "Espace de modération des mails bloqués car considérés comme des SPAM"
+        }
+      ]
+    },
+    {
+      "name": "🎨 Pôle comm'",
+      "links": [
+        {
+          "name": "Canva",
+          "url": "https:\/\/www.canva.com\/",
+          "icon": "images\/canva.png",
+          "description": "Pour faires des affiches, flyers, logos, ... 🤩"
+        },
+        {
+          "name": "Icons Rainbow",
+          "url": "http:\/\/free-icon-rainbow.com\/",
+          "icon": "images\/rainbow.png",
+          "description": "Stock d'icônes de qualité, gratuits, libres de droits mais monocouleurs (personnne n'est parfait 😭)"
+        },
+        {
+          "name": "Flaticon",
+          "url": "https:\/\/www.flaticon.com\/",
+          "icon": "images\/brioche.png",
+          "description": "Stock d'icônes PNG et SVG de qualité et  gratuits. Particulièrement utile pour retrouver le logo de marques."
+        },
+        {
+          "name": "Font Awesome",
+          "url": "https:\/\/fontawesome.com\/v4.7.0\/",
+          "icon": "images\/ciseaux.png",
+          "description": "Bien plus qu'une simple bibliothèque d'icônes 🌈"
+        },
+        {
+          "name": "TinyJPG",
+          "url": "https:\/\/tinyjpg.com\/",
+          "icon": "images\/panda.png",
+          "description": "Logiciel de compression d'images en ligne 🌈"
+        },
+        {
+          "name": "Linkedin PSN",
+          "url": "https:\/\/fr.linkedin.com\/company\/esstin-services",
+          "icon": "images\/linkedin.png",
+          "description": "N'oubliez pas de mettre des petits likes 😍"
+        },
+        {
+          "name": "Facebook PSN",
+          "url": "https:\/\/www.facebook.com\/PolytechServicesNancy\/",
+          "icon": "images\/facebook.png",
+          "description": "N'oubliez pas de mettre des petits likes 😍"
+        },
+        {
+          "name": "Twitter PSN",
+          "url": "https:\/\/twitter.com\/PolytechSN",
+          "icon": "images\/twitter.png",
+          "description": "N'oubliez pas de mettre des petits likes 😍"
+        }
+      ]
+    },
+    {
+      "name": "📊 Pôle quali'",
+      "links": [
+        {
+          "name": "Trello Relecture Docs",
+          "url": "https:\/\/trello.com\/b\/Xh9Pja0q\/relecture-documents",
+          "icon": "images\/trello_bleu.png",
+          "description": null
+        },
+        {
+          "name": "Trello Relecture Tréso",
+          "url": "https:\/\/trello.com\/b\/3ZQE8EwU\/relecture-treso",
+          "icon": "images\/trello_vert.png",
+          "description": null
+        },
+        {
+          "name": "Trello Relecture Livrables",
+          "url": "https:\/\/trello.com\/b\/0A3znDXz\/relecture-livrables",
+          "icon": "images\/trello_rouge.png",
+          "description": null
+        },
+        {
+          "name": "Trello TO DO LIST",
+          "url": "https:\/\/trello.com\/b\/CwU6HFhd\/to-do-list-qualit%C3%A9",
+          "icon": "images\/trello_jaune.png",
+          "description": null
+        },
+        {
+          "name": "Documents Types CNJE",
+          "url": "https:\/\/legal.junior-entreprises.com\/documents-types\/",
+          "icon": "images\/documents.png",
+          "description": null
+        },
+        {
+          "name": "Documents Types (Drive)",
+          "url": "https:\/\/drive.google.com\/drive\/u\/0\/folders\/13L5rjR3thzIA9Tht_qUrBpw2OArfdvVh",
+          "icon": "images\/folder.png",
+          "description": null
+        },
+        {
+          "name": "Indicateurs Relecture",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/14Ae4buRxzcbCFq0hV1ZcwsH6_QvGOixGdd8IvdDchJo\/edit#gid=1408177877",
+          "icon": "images\/general.png",
+          "description": null
+        },
+        {
+          "name": "Indicateurs Généraux",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1kAXOhPoJAe2JkAVJxLrMT4c7TcHOTiZUmxlIXIXjW4M\/edit#gid=421306908",
+          "icon": "images\/treso.png",
+          "description": null
+        },
+        {
+          "name": "Récapitulatif Questions CL",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1aLKlMNc0BGXBNrfuqopfoYuoAgJamgYtIzw_m7mjfDM\/edit#gid=1698390921",
+          "icon": "images\/cadre_legal.png",
+          "description": null
+        },
+        {
+          "name": "Grille Audit Tréso",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1zWStFqOFOlQpZgIsIVPkw14r_76v7dx4zTBidp5vq7I\/edit?usp=sharing",
+          "icon": "images\/audit_treso.png",
+          "description": null
+        },
+        {
+          "name": "Grille Audit Orga",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1k1Cn0xAcOhivw4b-jhMPW1rSNljIzVLSVKZqaUqTlLs\/edit?usp=sharing",
+          "icon": "images\/audit_orga.png",
+          "description": null
+        },
+        {
+          "name": "Grille Audit Études",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1AcYeJqWl75ikSA-og3BeANIjWucthIDLFH8swLXxFck\/edit?usp=sharing",
+          "icon": "images\/audit_etudes.png",
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "ℹ️Pôle orga'",
+      "links": [
+        {
+          "name": "Suivi Alumni - 1987-2021",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1fcqeQJfO_HI--SWi0JXWfUP0cA92Rc_nSAOienIU5ls\/edit#gid=1169653389",
+          "icon": "images\/alumni.png",
+          "description": null
+        },
+        {
+          "name": "Grille Audit Orga",
+          "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1k1Cn0xAcOhivw4b-jhMPW1rSNljIzVLSVKZqaUqTlLs\/edit#gid=0",
+          "icon": "images\/audit_orga.png",
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "💰 Pôle tréso'",
+      "links": [
+        {
+          "name": "Site des impôts",
+          "url": "http:\/\/www.impots.gouv.fr\/portail",
+          "icon": "images\/taxes.png",
+          "description": null
+        },
+        {
+          "name": "Site FSDIE",
+          "url": "https:\/\/fsdie.univ-lorraine.fr\/",
+          "icon": "images\/students.png",
+          "description": null
+        },
+        {
+          "name": "Site URSSAF",
+          "url": "https:\/\/www.urssaf.fr\/portail\/home.html",
+          "icon": "images\/impots.png",
+          "description": null
+        },
+        {
+          "name": "Docs Types Trésorerie",
+          "url": "https:\/\/legal.junior-entreprises.com\/pack-tresorerie\/",
+          "icon": "images\/doc_treso.png",
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "👥 Nos partenaires",
+      "links": [
+        {
+          "name": "Alten",
+          "url": "https:\/\/www.alten.fr",
+          "icon": "images\/alten.png",
+          "description": null
+        },
+        {
+          "name": "BNP Paribas",
+          "url": "https:\/\/group.bnpparibas\/",
+          "icon": "images\/bnp.png",
+          "description": null
+        },
+        {
+          "name": "Club LJE",
+          "url": "https:\/\/www.facebook.com\/Club-Lorraine-Junior-Entreprises-LJE-444127532449170\/",
+          "icon": "images\/lje.png",
+          "description": "Club Lorraine Junior-Entreprises 🙂"
+        },
+        {
+          "name": "ENGIE",
+          "url": "https:\/\/engie.com",
+          "icon": "images\/engie.png",
+          "description": null
+        },
+        {
+          "name": "EY",
+          "url": "https:\/\/www.ey.com\/fr_fr",
+          "icon": "images\/ey.png",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

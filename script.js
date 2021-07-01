@@ -1,228 +1,304 @@
-function firstLoad() {
-  $(".projets_row").hide();
-  $(".info_row").hide();
-  $(".comm_row").hide();
-  $(".quali_row").hide();
-  $(".orga_row").hide();
-  $(".treso_row").hide();
-  $(".partenaires_row").hide();
-  $(".description-area").hide();
+function setDarkMode(inputDarkMode) {
+    let darkSwitchDesktop = document.querySelector('#darkTriggerDesktop')
+    let darkSwitchMobile = document.querySelector('#darkTriggerMobile')
+    let navbar = document.querySelector('.navbar')
+    if (inputDarkMode.checked) {
+        darkSwitchDesktop.checked = true;
+        darkSwitchMobile.checked = true;
+        document.body.classList.add('dark')
+        navbar.classList.add("navbar-dark")
+        navbar.classList.add("bg-dark")
+        navbar.classList.remove("navbar-light")
+        navbar.classList.remove("bg-light")
+    } else {
+        darkSwitchDesktop.checked = false;
+        darkSwitchMobile.checked = false;
+        document.body.classList.remove('dark')
+        navbar.classList.remove("navbar-dark")
+        navbar.classList.remove("bg-dark")
+        navbar.classList.add("navbar-light")
+        navbar.classList.add("bg-light")
+    }
 }
 
+function hidePanels() {
+    let panels = document.querySelectorAll('.container > .row')
+    panels.forEach(function (panel) {
+        if (!panel.classList.contains('d-none')) {
+            panel.classList.add('d-none');
+        }
+    })
+
+}
+
+function showPanel(panelIndex) {
+    let panels = document.querySelectorAll('.container > .row')
+    panels.forEach(function (panel) {
+        if (parseInt(panel.getAttribute('data-panel')) === panelIndex && panel.classList.contains('d-none')) {
+            panel.classList.remove('d-none');
+        }
+    })
+}
+
+function removeNavItemIndicator() {
+    let navItems = document.querySelectorAll('.nav-link')
+    navItems.forEach(function (item) {
+        let text = item.textContent
+        text = text.replace('👈', '').trim();
+        item.textContent = text;
+        item.classList.remove('active')
+    })
+}
+
+function addNavItemIndicator(navItem) {
+    navItem.textContent = (navItem.textContent + ' 👈').trim()
+    navItem.classList.add('active')
+}
+
+setDarkMode(document.querySelector('#darkTriggerDesktop'));
+let darkSwitchDesktop = document.querySelector('#darkTriggerDesktop')
+let darkSwitchMobile = document.querySelector('#darkTriggerMobile')
+darkSwitchDesktop.addEventListener('change', function (e) {
+    setDarkMode(e.target);
+})
+darkSwitchMobile.addEventListener('change', function (e) {
+    setDarkMode(e.target);
+})
+
+let navItems = document.querySelectorAll('.nav-link')
+navItems.forEach(function (item) {
+    item.addEventListener("click", function (e) {
+        hidePanels()
+        showPanel(parseInt(e.target.getAttribute('data-navitem')))
+        removeNavItemIndicator()
+        addNavItemIndicator(e.target)
+    })
+})
+
+let cards = document.querySelectorAll('.container .card')
+cards.forEach(function (card) {
+    card.addEventListener('click', function (e) {
+        let linkElt = e.target.querySelector('a')
+        location.href = linkElt.getAttribute('href')
+    })
+})
+
+/*
 function resetAll() {
-  $(".row").hide();
-  $(".link_general").attr({
-    class: "nav-link link_general"
-  });
-  $(".link_projets").attr({
-    class: "nav-link link_projets"
-  });
-  $(".link_info").attr({
-    class: "nav-link link_info"
-  });
-  $(".link_comm").attr({
-    class: "nav-link link_comm"
-  });
-  $(".link_quali").attr({
-    class: "nav-link link_quali"
-  });
-  $(".link_orga").attr({
-    class: "nav-link link_orga"
-  });
-  $(".link_treso").attr({
-    class: "nav-link link_treso"
-  });
-  $(".link_partenaires").attr({
-    class: "nav-link link_partenaires"
-  });
-  $(".link_general").text("🦄 Général");
-  $(".link_projets").text("🗂️ Pôle proj'");
-  $(".link_info").text("🖥️ Pôle info'");
-  $(".link_comm").text("🎨 Pôle comm'");
-  $(".link_quali").text("📊 Pôle quali'");
-  $(".link_orga").text("ℹ️ Pôle orga'");
-  $(".link_treso").text("💰 Pôle tréso'");
-  $(".link_partenaires").text("👥 Nos partenaires");
+    $(".row").hide();
+    $(".link_general").attr({
+        class: "nav-link link_general"
+    });
+    $(".link_projets").attr({
+        class: "nav-link link_projets"
+    });
+    $(".link_info").attr({
+        class: "nav-link link_info"
+    });
+    $(".link_comm").attr({
+        class: "nav-link link_comm"
+    });
+    $(".link_quali").attr({
+        class: "nav-link link_quali"
+    });
+    $(".link_orga").attr({
+        class: "nav-link link_orga"
+    });
+    $(".link_treso").attr({
+        class: "nav-link link_treso"
+    });
+    $(".link_partenaires").attr({
+        class: "nav-link link_partenaires"
+    });
+    $(".link_general").text("🦄 Général");
+    $(".link_projets").text("🗂️ Pôle proj'");
+    $(".link_info").text("🖥️ Pôle info'");
+    $(".link_comm").text("🎨 Pôle comm'");
+    $(".link_quali").text("📊 Pôle quali'");
+    $(".link_orga").text("ℹ️ Pôle orga'");
+    $(".link_treso").text("💰 Pôle tréso'");
+    $(".link_partenaires").text("👥 Nos partenaires");
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-  firstLoad();
+    //firstLoad();
 
-  $(".link-img").on({
+    $(".link-img").on({
 
-   mouseenter: function(){
+        mouseenter: function () {
 
-     $(this).css("background-color", "#333");
+            $(this).css("background-color", "#333");
 
-   },
+        },
 
-   mouseleave: function(){
+        mouseleave: function () {
 
-     $(this).css("background-color", "transparent");
+            $(this).css("background-color", "transparent");
 
-   }
+        }
 
-  });
+    });
 
-  $(".link_general").on({
+    $(".link_general").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".general_row").show();
+            resetAll();
+            $(".general_row").show();
 
-      $(this).attr({
-        class: "nav-link link_general active"
-      });
+            $(this).attr({
+                class: "nav-link link_general active"
+            });
 
-      $(this).text("🦄 Général 👈")
+            $(this).text("🦄 Général 👈")
 
-    }
+        }
 
-  });
+    });
 
-  $(".link_projets").on({
+    $(".link_projets").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".projets_row").show();
+            resetAll();
+            $(".projets_row").show();
 
-      $(this).attr({
-        class: "nav-link link_projets active"
-      });
+            $(this).attr({
+                class: "nav-link link_projets active"
+            });
 
-      $(this).text("🗂️ Pôle proj' 👈")
-    }
+            $(this).text("🗂️ Pôle proj' 👈")
+        }
 
-  });
+    });
 
-  $(".link_info").on({
+    $(".link_info").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".info_row").show();
+            resetAll();
+            $(".info_row").show();
 
-      $(this).attr({
-        class: "nav-link link_info active"
-      });
+            $(this).attr({
+                class: "nav-link link_info active"
+            });
 
-      $(this).text("🖥️ Pôle info' 👈")
-    }
+            $(this).text("🖥️ Pôle info' 👈")
+        }
 
-  });
+    });
 
-  $(".link_comm").on({
+    $(".link_comm").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".comm_row").show();
+            resetAll();
+            $(".comm_row").show();
 
-      $(this).attr({
-        class: "nav-link link_comm active"
-      });
+            $(this).attr({
+                class: "nav-link link_comm active"
+            });
 
-      $(this).text("🎨 Pôle comm' 👈")
-    }
+            $(this).text("🎨 Pôle comm' 👈")
+        }
 
-  });
+    });
 
-  $(".link_quali").on({
+    $(".link_quali").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".quali_row").show();
+            resetAll();
+            $(".quali_row").show();
 
-      $(this).attr({
-        class: "nav-link link_quali active"
-      });
+            $(this).attr({
+                class: "nav-link link_quali active"
+            });
 
-      $(this).text("📊 Pôle quali' 👈")
-    }
+            $(this).text("📊 Pôle quali' 👈")
+        }
 
-  });
+    });
 
-  $(".link_orga").on({
+    $(".link_orga").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".orga_row").show();
+            resetAll();
+            $(".orga_row").show();
 
-      $(this).attr({
-        class: "nav-link link_orga active"
-      });
+            $(this).attr({
+                class: "nav-link link_orga active"
+            });
 
-      $(this).text("ℹ️ Pôle orga' 👈")
-    }
+            $(this).text("ℹ️ Pôle orga' 👈")
+        }
 
-  });
+    });
 
-  $(".link_treso").on({
+    $(".link_treso").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".treso_row").show();
+            resetAll();
+            $(".treso_row").show();
 
-      $(this).attr({
-        class: "nav-link link_treso active"
-      });
+            $(this).attr({
+                class: "nav-link link_treso active"
+            });
 
-      $(this).text("💰 Pôle tréso' 👈")
-    }
+            $(this).text("💰 Pôle tréso' 👈")
+        }
 
-  });
+    });
 
-  $(".link_partenaires").on({
+    $(".link_partenaires").on({
 
-    click: function(){
+        click: function () {
 
-      resetAll();
-      $(".partenaires_row").show();
+            resetAll();
+            $(".partenaires_row").show();
 
-      $(this).attr({
-        class: "nav-link link_partenaires active"
-      });
+            $(this).attr({
+                class: "nav-link link_partenaires active"
+            });
 
-      $(this).text("👥 Nos partenaires 👈")
-    }
+            $(this).text("👥 Nos partenaires 👈")
+        }
 
-  });
+    });
 
- $(".myPopover").popover();
+    $(".myPopover").popover();
 
 });
 
-$("#darkTrigger").click(function(){
-  if($("input[type=checkbox]").is(':checked')){
-      $("body").addClass("dark");
-      $(".btn-light").addClass("btn-dark");
-      $(".btn-dark").removeClass("btn-light");
-  } else {
-      if ($("body").hasClass("dark")){
-      $("body").removeClass("dark");
-      $(".btn-dark").addClass("btn-light");
-      $(".btn-light").removeClass("btn-dark");
+$("#darkTrigger").click(function () {
+    if ($("input[type=checkbox]").is(':checked')) {
+        $("body").addClass("dark");
+        $(".btn-light").addClass("btn-dark");
+        $(".btn-dark").removeClass("btn-light");
+    } else {
+        if ($("body").hasClass("dark")) {
+            $("body").removeClass("dark");
+            $(".btn-dark").addClass("btn-light");
+            $(".btn-light").removeClass("btn-dark");
+        }
     }
-  }
 });
 
 //$("input[type=checkbox]").prop('checked',false);
 $(document).ready(function () {
-  if($("input[type=checkbox]").is(':checked')){
-      $("body").addClass("dark");
-      $(".btn-light").addClass("btn-dark");
-      $(".btn-dark").removeClass("btn-light");
-  } else {
-      if ($("body").hasClass("dark")){
-      $("body").removeClass("dark");
-      $(".btn-dark").addClass("btn-light");
-      $(".btn-light").removeClass("btn-dark");
+    if ($("input[type=checkbox]").is(':checked')) {
+        $("body").addClass("dark");
+        $(".btn-light").addClass("btn-dark");
+        $(".btn-dark").removeClass("btn-light");
+    } else {
+        if ($("body").hasClass("dark")) {
+            $("body").removeClass("dark");
+            $(".btn-dark").addClass("btn-light");
+            $(".btn-light").removeClass("btn-dark");
+        }
     }
-  }
 });
+ */

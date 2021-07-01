@@ -1,4 +1,0 @@
-http://www.impots.gouv.fr/portail;images/taxes.png;Site des impôts;FALSE;*
-https://fsdie.univ-lorraine.fr/;images/students.png;Site FSDIE;FALSE;*
-https://www.urssaf.fr/portail/home.html;images/impots.png;Site URSSAF;FALSE;*
-https://legal.junior-entreprises.com/pack-tresorerie/;images/doc_treso.png;Docs Types Trésorerie;FALSE;*

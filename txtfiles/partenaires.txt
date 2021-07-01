@@ -1,5 +1,0 @@
-https://www.alten.fr;images/alten.png;Alten;FALSE;*
-https://group.bnpparibas/;images/bnp.png;BNP Paribas;FALSE;*
-https://www.facebook.com/Club-Lorraine-Junior-Entreprises-LJE-444127532449170/;images/lje.png;Club LJE;TRUE;Club Lorraine Junior-Entreprises 🙂
-https://engie.com;images/engie.png;ENGIE;FALSE;*
-https://www.ey.com/fr_fr;images/ey.png;EY;FALSE;*
