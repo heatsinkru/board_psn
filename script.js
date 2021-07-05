@@ -1,7 +1,12 @@
-function setDarkMode(inputDarkMode) {
+function setDarkMode(inputDarkMode, forceDarkMode = null) {
     let darkSwitchDesktop = document.querySelector('#darkTriggerDesktop')
     let darkSwitchMobile = document.querySelector('#darkTriggerMobile')
     let navbar = document.querySelector('.navbar')
+    if (forceDarkMode != null && forceDarkMode) {
+        inputDarkMode.checked = true;
+    } else if (forceDarkMode != null && !forceDarkMode) {
+        inputDarkMode.checked = false;
+    }
     if (inputDarkMode.checked) {
         darkSwitchDesktop.checked = true;
         darkSwitchMobile.checked = true;
@@ -18,6 +23,9 @@ function setDarkMode(inputDarkMode) {
         navbar.classList.remove("bg-dark")
         navbar.classList.add("navbar-light")
         navbar.classList.add("bg-light")
+    }
+    if (typeof localStorage != 'undefined') {
+        localStorage.setItem('psnBoardDark', inputDarkMode.checked ? 1 : 0 + '')
     }
 }
 
@@ -55,9 +63,20 @@ function addNavItemIndicator(navItem) {
     navItem.classList.add('active')
 }
 
-setDarkMode(document.querySelector('#darkTriggerDesktop'));
 let darkSwitchDesktop = document.querySelector('#darkTriggerDesktop')
 let darkSwitchMobile = document.querySelector('#darkTriggerMobile')
+
+if (typeof localStorage != 'undefined') {
+    if ('psnBoardDark' in localStorage) {
+        darkMode = localStorage.getItem('psnBoardDark')
+        setDarkMode(darkSwitchDesktop, darkMode === "1");
+    } else {
+        setDarkMode(darkSwitchDesktop, true);
+    }
+} else {
+    setDarkMode(darkSwitchDesktop, true);
+}
+
 darkSwitchDesktop.addEventListener('change', function (e) {
     setDarkMode(e.target);
 })
@@ -82,223 +101,3 @@ cards.forEach(function (card) {
         location.href = linkElt.getAttribute('href')
     })
 })
-
-/*
-function resetAll() {
-    $(".row").hide();
-    $(".link_general").attr({
-        class: "nav-link link_general"
-    });
-    $(".link_projets").attr({
-        class: "nav-link link_projets"
-    });
-    $(".link_info").attr({
-        class: "nav-link link_info"
-    });
-    $(".link_comm").attr({
-        class: "nav-link link_comm"
-    });
-    $(".link_quali").attr({
-        class: "nav-link link_quali"
-    });
-    $(".link_orga").attr({
-        class: "nav-link link_orga"
-    });
-    $(".link_treso").attr({
-        class: "nav-link link_treso"
-    });
-    $(".link_partenaires").attr({
-        class: "nav-link link_partenaires"
-    });
-    $(".link_general").text("🦄 Général");
-    $(".link_projets").text("🗂️ Pôle proj'");
-    $(".link_info").text("🖥️ Pôle info'");
-    $(".link_comm").text("🎨 Pôle comm'");
-    $(".link_quali").text("📊 Pôle quali'");
-    $(".link_orga").text("ℹ️ Pôle orga'");
-    $(".link_treso").text("💰 Pôle tréso'");
-    $(".link_partenaires").text("👥 Nos partenaires");
-}
-
-$(document).ready(function () {
-
-    //firstLoad();
-
-    $(".link-img").on({
-
-        mouseenter: function () {
-
-            $(this).css("background-color", "#333");
-
-        },
-
-        mouseleave: function () {
-
-            $(this).css("background-color", "transparent");
-
-        }
-
-    });
-
-    $(".link_general").on({
-
-        click: function () {
-
-            resetAll();
-            $(".general_row").show();
-
-            $(this).attr({
-                class: "nav-link link_general active"
-            });
-
-            $(this).text("🦄 Général 👈")
-
-        }
-
-    });
-
-    $(".link_projets").on({
-
-        click: function () {
-
-            resetAll();
-            $(".projets_row").show();
-
-            $(this).attr({
-                class: "nav-link link_projets active"
-            });
-
-            $(this).text("🗂️ Pôle proj' 👈")
-        }
-
-    });
-
-    $(".link_info").on({
-
-        click: function () {
-
-            resetAll();
-            $(".info_row").show();
-
-            $(this).attr({
-                class: "nav-link link_info active"
-            });
-
-            $(this).text("🖥️ Pôle info' 👈")
-        }
-
-    });
-
-    $(".link_comm").on({
-
-        click: function () {
-
-            resetAll();
-            $(".comm_row").show();
-
-            $(this).attr({
-                class: "nav-link link_comm active"
-            });
-
-            $(this).text("🎨 Pôle comm' 👈")
-        }
-
-    });
-
-    $(".link_quali").on({
-
-        click: function () {
-
-            resetAll();
-            $(".quali_row").show();
-
-            $(this).attr({
-                class: "nav-link link_quali active"
-            });
-
-            $(this).text("📊 Pôle quali' 👈")
-        }
-
-    });
-
-    $(".link_orga").on({
-
-        click: function () {
-
-            resetAll();
-            $(".orga_row").show();
-
-            $(this).attr({
-                class: "nav-link link_orga active"
-            });
-
-            $(this).text("ℹ️ Pôle orga' 👈")
-        }
-
-    });
-
-    $(".link_treso").on({
-
-        click: function () {
-
-            resetAll();
-            $(".treso_row").show();
-
-            $(this).attr({
-                class: "nav-link link_treso active"
-            });
-
-            $(this).text("💰 Pôle tréso' 👈")
-        }
-
-    });
-
-    $(".link_partenaires").on({
-
-        click: function () {
-
-            resetAll();
-            $(".partenaires_row").show();
-
-            $(this).attr({
-                class: "nav-link link_partenaires active"
-            });
-
-            $(this).text("👥 Nos partenaires 👈")
-        }
-
-    });
-
-    $(".myPopover").popover();
-
-});
-
-$("#darkTrigger").click(function () {
-    if ($("input[type=checkbox]").is(':checked')) {
-        $("body").addClass("dark");
-        $(".btn-light").addClass("btn-dark");
-        $(".btn-dark").removeClass("btn-light");
-    } else {
-        if ($("body").hasClass("dark")) {
-            $("body").removeClass("dark");
-            $(".btn-dark").addClass("btn-light");
-            $(".btn-light").removeClass("btn-dark");
-        }
-    }
-});
-
-//$("input[type=checkbox]").prop('checked',false);
-$(document).ready(function () {
-    if ($("input[type=checkbox]").is(':checked')) {
-        $("body").addClass("dark");
-        $(".btn-light").addClass("btn-dark");
-        $(".btn-dark").removeClass("btn-light");
-    } else {
-        if ($("body").hasClass("dark")) {
-            $("body").removeClass("dark");
-            $(".btn-dark").addClass("btn-light");
-            $(".btn-light").removeClass("btn-dark");
-        }
-    }
-});
- */

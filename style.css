@@ -49,6 +49,7 @@
     align-items: center;
     border-radius: 0;
     padding: 30px 0;
+    background-color: transparent;
 }
 
 .card .img-container {
@@ -65,7 +66,7 @@
     position: relative;
 }
 
-.card:hover {
+.container > .row .card:hover {
     background-color: #eee;
     cursor: pointer;
     transition: 0.2s;
@@ -107,11 +108,11 @@
 }
 
 .dark .card {
-    background-color: #181a1b;
+    background-color: transparent;
     border: 1px solid #333;
 }
 
-.dark .card:hover {
+.dark .container > .row .card:hover {
     background-color: #111;
 }
 
