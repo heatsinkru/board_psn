@@ -309,6 +309,18 @@
           "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1k1Cn0xAcOhivw4b-jhMPW1rSNljIzVLSVKZqaUqTlLs\/edit#gid=0",
           "icon": "images\/audit_orga.png",
           "description": null
+        },
+        {
+          "name": "Plateforme d'adhésion",
+          "url": "https:\/\/adhesion.polytech-services-nancy.fr",
+          "icon": "images\/plateforme_adhesion.png",
+          "description": null
+        },
+        {
+          "name": "Formulaire nouvelle adhésion",
+          "url": "https:\/\/adhesion.polytech-services-nancy.fr\/memberships\/create",
+          "icon": "images\/nouvelle_adhesion.png",
+          "description": null
         }
       ]
     },

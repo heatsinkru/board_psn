@@ -6,7 +6,7 @@
         <div class='card text-center'>
             <a class='card-body' href='<?= $card['url'] ?>' target="_blank">
                 <div class="img-container">
-                    <img src='<?= $card['icon'] ?>' class='img-responsive'>
+                    <img src="<?= $card['icon'] ?>" class='img-responsive'>
                 </div>
                 <span class="card-title"><?= $card['name'] ?></span>
                 <?php
