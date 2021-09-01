@@ -86,6 +86,12 @@
           "url": "http:\/\/agenda.polytech-services-nancy.fr",
           "icon": "images\/calendar.png",
           "description": null
+        },
+        {
+          "name": "Monday PSN",
+          "url": "https:\/\/polytech-services-nancy.monday.com\/workspaces\/-1",
+          "icon": "images\/monday.png",
+          "description": null
         }
       ]
     },
