@@ -168,6 +168,12 @@
           "url": "https:\/\/groups.google.com\/a\/polytech-services-nancy.fr\/g\/securite\/pending-messages?pli=1",
           "icon": "images\/validation.png",
           "description": "Espace de modération des mails bloqués car considérés comme des SPAM"
+        },
+        {
+          "name": "Créer un ticket d'assistance",
+          "url": "https:\/\/forms.monday.com\/forms\/b6767a8e1e49d19ef9830a8b804aa784?r=use1",
+          "icon": "images\/assistance.png",
+          "description": null
         }
       ]
     },
