@@ -92,6 +92,12 @@
           "url": "https:\/\/polytech-services-nancy.monday.com\/workspaces\/-1",
           "icon": "images\/monday.png",
           "description": null
+        },
+        {
+          "name": "Notion PSN",
+          "url": "https:\/\/www.notion.so\/polytech-services-nancy",
+          "icon": "images\/notion.png",
+          "description": null
         }
       ]
     },
